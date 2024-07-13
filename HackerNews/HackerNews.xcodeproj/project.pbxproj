@@ -17,6 +17,7 @@
 		E409E9132C416DB00012295C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409E9122C416DB00012295C /* NetworkManager.swift */; };
 		E409E9152C4289650012295C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409E9142C4289650012295C /* PostData.swift */; };
 		E409E9182C4295580012295C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409E9172C4295580012295C /* DetailView.swift */; };
+		E409E91B2C42AB1B0012295C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409E91A2C42AB1B0012295C /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E409E9142C4289650012295C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		E409E9172C4295580012295C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E409E9192C429CA10012295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E409E91A2C42AB1B0012295C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				E409E8E92C414FC80012295C /* ContentView.swift */,
 				E409E9172C4295580012295C /* DetailView.swift */,
+				E409E91A2C42AB1B0012295C /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				E409E9132C416DB00012295C /* NetworkManager.swift in Sources */,
 				E409E9152C4289650012295C /* PostData.swift in Sources */,
 				E409E8EA2C414FC80012295C /* ContentView.swift in Sources */,
+				E409E91B2C42AB1B0012295C /* WebView.swift in Sources */,
 				E409E9182C4295580012295C /* DetailView.swift in Sources */,
 				E409E8E82C414FC80012295C /* HackerNewsApp.swift in Sources */,
 			);

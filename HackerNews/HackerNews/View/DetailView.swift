@@ -21,20 +21,3 @@ struct DetailView: View {
     DetailView(url: "https://www.google.com")
 }
 
-
-struct WebView: UIViewRepresentable {
- 
-    let url: URL
-    let webView: WKWebView
-    
-
-    
-    func makeUIView(context: Context) -> WKWebView {
-        webView.allowsBackForwardNavigationGestures = true
-        return webView
-    }
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        let request = URLRequest(url: url)
-        webView.load(request)
-    }
-}
