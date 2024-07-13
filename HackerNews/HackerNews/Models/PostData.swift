@@ -15,7 +15,7 @@ struct Results: Codable {
 struct Post: Codable, Identifiable {
     var id: String { return objectID }
     let objectID: String
-    let url: String
+    let url: String?
     let points: Int
     let title: String
 }

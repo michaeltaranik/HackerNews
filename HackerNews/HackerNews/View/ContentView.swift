@@ -9,6 +9,7 @@ import SwiftUI
 
 
 
+
 struct ContentView: View {
     
     @ObservedObject var networkManager = NetworkManager()
@@ -17,7 +18,12 @@ struct ContentView: View {
         VStack {
             NavigationStack {
                 List(networkManager.posts) { post in
-                    Text(post.title)
+                    NavigationLink(destination: DetailView(url: post.url)) {
+                        HStack {
+                            Text(String(post.points))
+                            Text(post.title)
+                        }
+                    }
                 }
                 .navigationTitle("HackerNews")
             }
@@ -35,4 +41,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
 
