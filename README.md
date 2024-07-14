@@ -9,3 +9,4 @@ Simple, yet <b>functional</b> app
 
 
 <b> Description </b> : The app uses API of HackerNews to fetch the information and then displays it with the help of SwiftUI
+P.S. HackerNews also works on Mac and iPad
